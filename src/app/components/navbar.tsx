@@ -4,6 +4,11 @@ export default function Navbar() {
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-50 flex flex-row justify-around items-center bg-black text-white text-xl">
+        <img
+          src="/images/logo-header.png"
+          alt="red-line logo"
+          className="h-[120px] w-[120px]"
+        />
         <Link href="/" className="hover:text-red-500">
           Inicio
         </Link>
@@ -60,6 +65,11 @@ export default function Navbar() {
         <Link href="/contacto" className="hover:text-red-500">
           Contacto
         </Link>
+        <img
+          src="/images/logo-header.png"
+          alt="red-line logo"
+          className="h-[120px] w-[120px]"
+        />
       </div>
     </>
   );
