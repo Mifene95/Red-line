@@ -56,7 +56,7 @@ export default function Navbar() {
           <img
             src="/images/redline2.png"
             alt="red-line logo"
-            className="h-[120px] w-[120px]"
+            className="h-[90px] w-[90px]"
           />
         </Link>
         <Link href="/tienda" className="hover:text-red-600">
