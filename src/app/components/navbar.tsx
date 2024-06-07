@@ -4,11 +4,18 @@ export default function Navbar() {
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-50 flex flex-row justify-around items-center bg-black text-white text-xl">
-        <img
-          src="/images/redline-white.png"
-          alt="red-line logo"
-          className="h-[90px] w-[90px]"
-        />
+        <Link
+          href="https://discord.gg/eliteroleplay"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/images/redline-white.png"
+            alt="red-line logo"
+            className="h-[90px] w-[90px]"
+          />
+        </Link>
+
         <Link href="/" className="hover:text-red-500">
           Inicio
         </Link>
@@ -52,7 +59,11 @@ export default function Navbar() {
             </Link>
           </div>
         </div>
-        <Link href="/">
+        <Link
+          href="https://discord.gg/zysa5qQ5Zk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="/images/redline2.png"
             alt="red-line logo"
@@ -65,11 +76,17 @@ export default function Navbar() {
         <Link href="/contacto" className="hover:text-red-500">
           Contacto
         </Link>
-        <img
-          src="/images/redline-white.png"
-          alt="red-line logo"
-          className="h-[90x] w-[90px]"
-        />
+        <Link
+          href="https://discord.gg/eliteroleplay"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/images/redline-white.png"
+            alt="red-line logo"
+            className="h-[90x] w-[90px]"
+          />
+        </Link>
       </div>
     </>
   );
