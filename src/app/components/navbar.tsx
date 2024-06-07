@@ -5,9 +5,9 @@ export default function Navbar() {
     <>
       <div className="fixed top-0 left-0 right-0 z-50 flex flex-row justify-around items-center bg-black text-white text-xl">
         <img
-          src="/images/logo-header.png"
+          src="/images/redline-white.png"
           alt="red-line logo"
-          className="h-[120px] w-[120px]"
+          className="h-[90px] w-[90px]"
         />
         <Link href="/" className="hover:text-red-500">
           Inicio
@@ -56,7 +56,7 @@ export default function Navbar() {
           <img
             src="/images/redline2.png"
             alt="red-line logo"
-            className="h-[90px] w-[90px]"
+            className="h-[90px] w-[110px]"
           />
         </Link>
         <Link href="/tienda" className="hover:text-red-600">
@@ -66,9 +66,9 @@ export default function Navbar() {
           Contacto
         </Link>
         <img
-          src="/images/logo-header.png"
+          src="/images/redline-white.png"
           alt="red-line logo"
-          className="h-[120px] w-[120px]"
+          className="h-[90x] w-[90px]"
         />
       </div>
     </>
