@@ -1,1 +1,6 @@
-export default function Home() {}
+import Header from "./components/header";
+
+export default function Home() {
+    return (<Header />)
+        
+}
