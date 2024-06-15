@@ -10,10 +10,10 @@ export default function Home() {
         <img
           src="/images/redline-foto.jpeg"
           alt="gta v image with cars"
-          className="h-[300px] w-[800px]"
+          className="h-[400px] w-[1200px] mt-[30px]"
         />
 
-        <Link href="/" className="mt-10">
+        <Link href="/portfolio" className="mt-10">
           <span className="text-white hover:text-red-500 text-3xl">
             Portfolio
           </span>
