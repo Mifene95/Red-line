@@ -18,6 +18,12 @@ export default function Home() {
             Portfolio
           </span>
         </Link>
+        <div className="text-white flex flex-row gap-[80px] mt-[100px]">
+          <div><h1>BMW</h1></div>
+          <div><h1>MERCEDES</h1></div>
+          <div><h1>AUDI</h1></div>
+          <div><h1>FIAT</h1></div>
+        </div>
       </div>
     </>
   );
