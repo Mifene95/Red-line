@@ -23,6 +23,7 @@ export default function Home() {
           <div><h1>MERCEDES</h1></div>
           <div><h1>AUDI</h1></div>
           <div><h1>FIAT</h1></div>
+          <div>MCLAREN</div>
         </div>
       </div>
     </>
