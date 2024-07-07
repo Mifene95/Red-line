@@ -8,13 +8,7 @@ export default function Navbar() {
           href="https://discord.gg/eliteroleplay"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          <img
-            src="/images/redline-white.png"
-            alt="red-line logo"
-            className="h-[90px] w-[90px]"
-          />
-        </Link>
+        ></Link>
 
         <Link href="/" className="hover:text-red-500">
           Inicio
@@ -80,13 +74,7 @@ export default function Navbar() {
           href="https://discord.gg/eliteroleplay"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          <img
-            src="/images/redline-white.png"
-            alt="red-line logo"
-            className="h-[90x] w-[90px]"
-          />
-        </Link>
+        ></Link>
       </div>
     </>
   );
